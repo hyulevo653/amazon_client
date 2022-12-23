@@ -1,0 +1,1 @@
+mongodb+srv://amazona:huymy123@cluster0.m6zqk3l.mongodb.net/amazona?retryWrites=true&w=majority
