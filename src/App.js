@@ -35,6 +35,9 @@ import UserListScreen from "./screens/UserListScreen";
 import UserEditScreen from "./screens/UserEditScreen";
 import MapScreen from "./screens/MapScreen";
 
+console.log(process.env);
+console.log(process.env.REACT_APP_BASE_URL);
+axios.defaults.baseURL = process.env.REACT_APP_BASE_URL;
 function App() {
   const { state, dispatch: ctxDispatch } = useContext(Store);
   const { fullBox, cart, userInfo } = state;
